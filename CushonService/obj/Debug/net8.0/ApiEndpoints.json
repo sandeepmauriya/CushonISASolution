@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "IvestmentsCoreApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/{emaildid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emaildid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IvestmentsCoreApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IvestmentsCoreApi.RegisterCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IvestmentsCoreApi.Controllers.FundsController",
+    "Method": "GetFunds",
+    "RelativePath": "api/Funds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IvestmentsCoreApi.Controllers.InvestmentsController",
+    "Method": "Invest",
+    "RelativePath": "api/Investments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "IvestmentsCoreApi.InvestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IvestmentsCoreApi.Controllers.InvestmentsController",
+    "Method": "GetInvestmentsByCustomerID",
+    "RelativePath": "api/Investments/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

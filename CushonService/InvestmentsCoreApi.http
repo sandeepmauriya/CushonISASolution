@@ -1,0 +1,6 @@
+@IvestmentsCoreApi_HostAddress = http://localhost:5199
+
+GET {{IvestmentsCoreApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
